@@ -1,0 +1,59 @@
+
+@media only screen and (max-width: 1000px) 
+{
+    .nav-list {
+        flex-direction: column;
+    }
+    .navbar {
+        flex-direction: column;
+        height: 455px;
+        transition: all 0.3s ease-out;
+    }
+    .rightnav {
+        text-align: center;
+    }
+    #search {
+        width: 100%;
+    }
+    .firsts {
+        height: 80vh;
+    }
+    .main {
+        flex-direction: column-reverse;
+    }
+    .fhalf {
+        margin-top: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .shalf {
+        margin-top: 90px;
+        width: 50%;
+    }
+    .text-big {
+        margin-bottom: 0px;
+    }
+    .burger {
+        display: block;
+    }
+    .h-nav {
+        height: 65px;
+    }
+    .v-nav {
+        opacity: 0;
+    }
+    .form {
+        height: 100vh;
+        max-width: 62%;
+    }
+    .section {
+        height: 300px;
+    }
+    .secright {
+        flex-direction: column;
+    }
+    .tb {
+        width: 80%;
+        margin-top: 30px;
+    }
+}
